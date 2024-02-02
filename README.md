@@ -8,11 +8,11 @@ Además, curl es de **código abierto** y está disponible en varios sistemas op
 
 Puedes consultar el manual directamente en la consola con las siguientes opciones: 
 
-- Obtener el manual de curl en consola:
+### Obtener el manual de curl en consola:
 
         man curl
 
-- Descargar el manual de curl en un archivo desde la consola:
+### Descargar el manual de curl en un archivo desde la consola:
 
         man curl >> manualCurl.txt
 
