@@ -17,7 +17,33 @@ Puedes consultar el manual directamente en la consola con las siguientes opcione
         man curl >> manualCurl.txt
 
 
+---
 
+### Sintaxis básica
+
+        curl <URL>
+        
+Donde <URL> es la dirección del recurso al que deseas realizar la solicitud. Esto podría ser una página web, una API, o cualquier otro recurso accesible a través de HTTP.
+
+### Descargar un archivo desde la web
+
+        curl -o nombre_archivo.extension https://www.ejemplo.com/archivo.extension
+        
+Esto descargará el archivo desde la URL proporcionada y lo guardará con el nombre especificado.
+
+### Especificar URLs en las solicitudes
+
+Puedes especificar la URL directamente en el comando curl para realizar solicitudes a recursos específicos. Por ejemplo:
+
+        curl https://api.ejemplo.com/datos
+        
+Uso de banderas para configurar la URL
+
+Puedes utilizar diferentes banderas con curl para configurar la URL y la solicitud. Algunas banderas comunes incluyen:
+
+**-X** para especificar el **método HTTP (GET, POST, etc.)**.
+**-H** para **agregar encabezados** a la solicitud.
+**-d** para enviar datos en una solicitud **POST**.
 
 ---
 
