@@ -6,6 +6,7 @@
 - Que es curl
 - [Sintaxis básica](#comandosBasicos)
 - [Funciones comunes](#comandosComunes)
+- [Cheatsheet](#cheatsheet)
 ---
   
 ## ¿Que es curl? ##
@@ -110,16 +111,12 @@ Puedes utilizar diferentes banderas con curl para configurar la URL y la solicit
 
 ### Request
 
-|Opcion| valor |
+|Opcion| valor |descripcion|
 |---|---|
-|-X POST|# --request|
-|-L|# follow link if page redirects|
+|-X POST|--request POST| Especifica el método HTTP de la solicitud como POST. Se utiliza para realizar solicitudes HTTP POST.|
+|-L|  |Hace que curl siga las redirecciones. Si la página a la que estás accediendo redirige a otra, curl seguirá la redirección hasta llegar a la página final.|
+|-F   |--form |Especifica datos para una solicitud HTTP POST utilizando el formato multipart/form-data. Es comúnmente utilizado para enviar archivos y otros datos binarios.|
 
-
-
-          
-               
--F               # --form: HTTP POST data for multipart/form-data
 
 ### Data
 
