@@ -4,8 +4,8 @@
 ### Index
 
 - Que es curl
-- [Sintaxis básica](comandosBasicos)
-- [Funciones comunes](comandosComunes)
+- [Sintaxis básica](#comandosBasicos)
+- [Funciones comunes](#comandosComunes)
 ---
   
 ## ¿Que es curl? ##
