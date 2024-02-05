@@ -1,4 +1,13 @@
 ![Logo Curl](img/curlLogo.png)
+
+---
+### Index
+
+- Que es curl
+- [Sintaxis básica](comandosBasicos)
+- [Funciones comunes](comandosComunes)
+---
+  
 ## ¿Que es curl? ##
 **curl** es una herramienta de línea de comandos utilizada para realizar transferencias de datos a través de diferentes protocolos de red. Su nombre proviene de la frase "Client for URLs" (Cliente para URLs). Curl es compatible con una amplia variedad de protocolos, incluyendo HTTP, HTTPS, FTP, FTPS, SCP, LDAP, y más.
 
@@ -18,6 +27,8 @@ Puedes consultar el manual directamente en la consola con las siguientes opcione
 
 
 ---
+
+<a name="comandosBasicos"></a>
 
 ### Sintaxis básica
 
@@ -42,10 +53,14 @@ Uso de banderas para configurar la URL
 Puedes utilizar diferentes banderas con curl para configurar la URL y la solicitud. Algunas banderas comunes incluyen:
 
 **-X** para especificar el **método HTTP (GET, POST, etc.)**.
+
 **-H** para **agregar encabezados** a la solicitud.
+
 **-d** para enviar datos en una solicitud **POST**.
 
+
 ---
+<a name="comandosComunes"></a>
 
 ## Comandos básicos
 
