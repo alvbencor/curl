@@ -112,7 +112,7 @@ Puedes utilizar diferentes banderas con curl para configurar la URL y la solicit
 ### Request
 
 |Opcion| valor |descripcion|
-|---|---|
+|---|---|---|
 |-X POST|--request POST| Especifica el método HTTP de la solicitud como POST. Se utiliza para realizar solicitudes HTTP POST.|
 |-L|  |Hace que curl siga las redirecciones. Si la página a la que estás accediendo redirige a otra, curl seguirá la redirección hasta llegar a la página final.|
 |-F   |--form |Especifica datos para una solicitud HTTP POST utilizando el formato multipart/form-data. Es comúnmente utilizado para enviar archivos y otros datos binarios.|
@@ -120,8 +120,8 @@ Puedes utilizar diferentes banderas con curl para configurar la URL y la solicit
 
 ### Data
 
-|Opcion| valor |
-|---|---|
+|Opcion| valor |descripcion |
+|---|---|---|
 
 -d 'data'    # --data: HTTP post data, URL encoded (eg, status="Hello")
 -d @file     # --data via file
